@@ -1,6 +1,6 @@
 [submodule "salon-eventos-frontend"]
 	path = salon-eventos-frontend
-	url = ./salon-eventos-frontend
+	url = https://github.com/dcevedo/salon-eventos-frontend.git
 [submodule "salon-eventos-backend"]
 	path = salon-eventos-backend
-	url = ./salon-eventos-backend
+	url = https://github.com/dcevedo/salon-eventos-backend.git
