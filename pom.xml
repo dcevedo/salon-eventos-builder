@@ -8,8 +8,8 @@
     <name>Full Main</name>
     <packaging>pom</packaging>
     <modules>
-        <module>angular-saloneventos\salon-eventos-frontend</module>
-        <module>salondeeventos</module>
+        <module>salon-eventos-frontend</module>
+        <module>salon-eventos-backend</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

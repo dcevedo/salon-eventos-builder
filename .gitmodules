@@ -1,0 +1,6 @@
+[submodule "salon-eventos-frontend"]
+	path = salon-eventos-frontend
+	url = ./salon-eventos-frontend
+[submodule "salon-eventos-backend"]
+	path = salon-eventos-backend
+	url = ./salon-eventos-backend
