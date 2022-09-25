@@ -1,0 +1,24 @@
+services:
+  springapp:
+    env_file: salon-eventos-backend/spring.env
+    # image: dcevedo/inventory:v4
+    build: .
+    networks:
+      - spring-mysql-net
+    depends_on:
+      - mysqldb
+    ports:
+      - 8080:8080
+      # - 8443:8443
+    # volumes:
+    #   - "/etc/letsencrypt/archive/dcevedo-ows1.ddnsfree.com:/app/certificates:ro"
+  mysqldb:
+    env_file: mysql.env
+    image: mysql:8.0.29
+    restart: always
+    networks:
+      - spring-mysql-net
+    volumes:
+      - "./spring-mysql:/var/lib/mysql"
+networks:
+  spring-mysql-net:
