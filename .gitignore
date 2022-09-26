@@ -34,3 +34,6 @@ build/
 # angular-saloneventos/
 # salondeeventos/
 *.code-workspace
+
+## PROJECT ##
+spring-mysql/
